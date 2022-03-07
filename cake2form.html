@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario pumpkin</title>
+</head>
+<style>
+    h1 {
+        font-family: Lobster, monospace;
+        color: purple;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: monospace;
+        color: black;
+    }
+
+    .imagen-logo {
+        width: 100px;
+        height: 100px;
+        border-color: lightblue;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 10px;
+    }
+
+    body {
+            background-image: url('https://images.unsplash.com/photo-1595272568891-123402d0fb3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGUlMjBjYWtlfGVufDB8fDB8fA==&auto=format&fit=crop&w=500&q=60');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:  center;
+        }
+        
+</style>
+
+<body>
+    <div align="left">
+        <a href="index.html"><font color="#FF0000">Inicio</font></a><font color="#FF0000">
+		</font>
+        <a href="cake2form.html"><font color="#FF0000">Ordena tu pedido</font></a><font color="#FF0000">
+		</font>
+        <a href="cake3inve.html"><font color="#FF0000">Lista de Pedidos</font></a><font color="#FF0000">
+		</font></div>
+    <font color="#ADD8E6">
+    </div>
+
+    </font>
+
+    <div align="center"> 
+		<font color="#ADD8E6"> 
+		<img class="imagen-logo" src="imge/swclogo.png" alt="Lumi-cake"
+            border="0" width="510" height="469" style="width: 300px; height: 300px; border-width: 0px"></font></div>
+
+    <h1 align=center><font color="#009999">Aqui se ordena tu Pastel</font></h1>
+    <form action="/accion.js" id="form1" method="post">
+        <div align="center">
+            <font color="#009999"><b>
+            <label for="Input1"> <font size="4">Nombre Completo</font></label><font size="5"><br>
+            </font></b></font><font color="#009999" size="5">
+            <input placeholder="Ingresa tu nombre" id="Input1" name="Input1" style="font-weight: 700"></font><b><font size="5" color="#009999"><br><br>
+
+            <label for="tel1">Numero de telefono</label><br>
+            </font></b><font color="#ADD8E6"><font color="#009999" size="5">
+            <input type="tel" placeholder="Telefono a 10 Digitos" id="tel1" name="tel1" maxlength="10" style="font-weight: 700"></font><b><font size="5" color="#009999"><br><br>
+
+            <label for="fecha1">Ingresa la fecha a entregar</label><br>
+            </font></b><font color="#009999" size="5">
+            <input type="date" id="fecha1" name="fecha1" style="font-weight: 700"></font><b><font size="5" color="#009999"><br>
+
+
+            &nbsp;</font></b></font></div>
+		<div align="center">
+            <font color="#009999" size="5"><b>Escoge tu sabor<br>
+            </b></font><font color="#009999" size="5">
+            <input placeholder="Sabor" id="Input3" name="Input3" style="font-weight: 700"></font></div>
+		<div align="center">
+            <b><font size="5" color="#009999">
+            <br>
+
+            Elija el peso del pastel <br>
+            </font></b><font color="#009999" size="5">
+            <input placeholder="Peso del pastel" id="Input4" name="Input4" style="font-weight: 700"></font><b><font size="5" color="#009999"><br><br>
+
+
+            Escoge tu decoracion<br>
+            </font></b><font color="#009999" size="5">
+            <input placeholder="Escoge tu decoracion" id="Input5" name="Input5" style="font-weight: 700"></font></div>
+		<div align="center">
+            <b><font size="5" color="#009999">
+            <br>
+
+            <label for="Input2"> ingresa tu dirección</label><br>
+            </font></b><font color="#009999" size="5">
+            <input placeholder="Calle y numero" id="Input2" name="Input2" style="font-weight: 700"></font><b><font size="5"><font color="#009999"><br><br>
+
+            <label for="Input2"> informacion adicional</label></font><font color="#ADD8E6"><br>
+            </font></font></b><font color="#ADD8E6">
+            <input placeholder="Detalles extras" id="Input2" name="Input2" style="font-weight: 700"></font><br><br>
+
+            <input type="button" id="boton1" name="boton1" value="Enviar pedido"
+                onclick="alert('Se ha enviado el pedido');"><br><br>
+            <br>
+    </form>
+    </div>
+
+</body>
+
+</html>
